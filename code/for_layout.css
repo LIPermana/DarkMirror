@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: sans-serif;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 1536px;
+	height: 758px;
+	background-image: url("../img/dark2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*------ Header ------*/
+
+header {
+	width: 100%;
+	height: 130px;
+	/*background-color: #636065;*/
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header a p {
+	margin-top: 8px;
+	margin-left: 60px;
+}
+
+.img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+}
+
+header .art, .invite {
+	float: left;
+	margin: 30px;
+	width: 220px;
+	height: 50px;
+	/*background-color: #7a777d;*/
+}
+
+header .invite {
+	float: right;
+	margin-right: 30px;
+	width: 150px;
+}
+
+/*------ Side left ------*/
+
+.left {
+	float: left;
+	width: 130px;
+	height: 498px;
+	/*background-color: #7a777d;*/
+}
+
+.left a {
+	color: white;
+	text-decoration: none;
+}
+
+.left a p {
+	transform: rotate(-90deg);
+	margin-top: 240px;
+}
+
+/*------ Main ------*/
+
+main{
+	float: left;
+	width: 1276px;
+	height: 498px;
+	/*background-color: #8e8b90;*/
+}
+
+main .dark {
+	margin: 50px auto;
+	width: 60%;
+	/*background-color: #9e9da2;*/
+}
+
+main h1, h3 {
+	text-align: center;
+}
+
+main h1 {
+	font-size: 90px;
+	margin-top: 140px;
+	margin-bottom: 0;
+	letter-spacing: 10px;
+}
+
+main h3 {
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	margin-top: 0;
+}
+
+.img2 {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+}
+
+/*------ Side Right ------*/
+
+.right {
+	float: left;
+	width: 130px;
+	height: 498px;
+	/*background-color: #7a777d;*/
+}
+
+.right a {
+	color: white;
+	text-decoration: none;
+}
+
+.right a p {
+	transform: rotate(90deg);
+	margin-top: 240px;
+}
+
+/*------ Footer ------*/
+
+footer {
+	width: 100%;
+	height: 130px;
+	/*background-color: #636065;*/
+	clear: both;
+}
+
+footer p {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.satu, .dua, .tiga, .empat, .lima {
+	float: left;
+	width: 20%;
+	height: 100%;
+	/*background-color: #b5b4bb;*/
+}
+
+.lima p {
+	margin-left: 100px;
+}
+
+.empat p {
+	margin-left: 15px;
+}
+
+.dua p {
+	margin-left: 80px;
+}
+
+.dua, .empat {
+	/*background-color: #9e9da2;*/
+}
+
+.bold {
+	font-weight: bolder;
+}

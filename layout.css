@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+	width: 1536px;
+	height: 758px;
+	background-image: url("img/dark1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*------ Header ------*/
+
+header {
+	width: 100%;
+	height: 130px;
+	background-color: #636065;
+}
+
+header .art,.invite {
+	float: left;
+	margin: 30px;
+	width: 150px;
+	height: 70px;
+	background-color: #7a777d;
+}
+
+header .invite {
+	float: right;
+}
+
+/*------ Side left ------*/
+
+.left {
+	float: left;
+	width: 130px;
+	height: 498px;
+	background-color: #7a777d;
+}
+
+.left a {
+	color: white;
+	text-decoration: none;
+}
+
+/*------ Main ------*/
+
+main{
+	float: left;
+	width: 1276px;
+	height: 498px;
+	background-color: #8e8b90;
+}
+
+main .dark {
+	margin: 50px auto;
+	width: 60%;
+	height: 80%;
+	background-color: #9e9da2;
+}
+
+/*------ Side Right ------*/
+
+.right {
+	float: left;
+	width: 130px;
+	height: 498px;
+	background-color: #7a777d;
+}
+
+.right a {
+	color: white;
+	text-decoration: none;
+}
+
+/*------ Footer ------*/
+
+footer {
+	width: 100%;
+	height: 130px;
+	background-color: #636065;
+	clear: both;
+}
+
+.satu, .dua, .tiga, .empat, .lima {
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #b5b4bb;
+}
+
+.dua, .empat {
+	background-color: #9e9da2;
+}
